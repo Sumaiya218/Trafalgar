@@ -598,6 +598,12 @@ footer .container .items div ul li{
     }
 }
 
+@media only screen and (max-width: 800px){
+    .services .items .contain{
+        width: 100%;
+    }
+}
+
 
 
 
