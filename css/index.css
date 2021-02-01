@@ -598,8 +598,8 @@ footer .container .items div ul li{
     }
 }
 
-@media only screen and (max-width: 800px){
-    .services .items .contain{
+@media only screen and (max-width: 600px){
+    .services .items .contain , .services .items .contain .item , .download .container .photo , .download .container .text {
         width: 100%;
     }
 }
