@@ -601,19 +601,15 @@ footer .container .items div ul li {
     width: 100%;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
+  header .container .text,
+  header .container .photo,
   .services .items .contain,
   .lead .container .text,
   .lead .container .photo,
   .download .container .photo,
   .download .container .text,
   .customer .container .contain .item {
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 768px) {
-  header .container .text,
-  header .container .photo {
     width: 100%;
   }
   header .container .photo img {
@@ -626,6 +622,15 @@ footer .container .items div ul li {
   .customer .container .carasol > div {
     margin: 0px;
     padding: 0px;
+  }
+  .lead .container {
+    padding: 0;
+  }
+  .lead .container .text{
+    padding: 20px;
+  }
+  .lead .container .photo img {
+    width: 100%;
   }
   footer .container .items {
     display: block;
@@ -649,9 +654,9 @@ footer .container .items div ul li {
   .download .container .text {
     width: 100%;
   }
-  .services .link a,.articales .container .link a {
+  .services .link a,.articales .container .link a , .lead .container .text a , .download .container .text a  {
     font-size: 14px;
-    padding: 10px;
+    padding: 10px 20px;
   }
   .customer .container .contain h3 {
     font-size: 18px;
@@ -665,6 +670,10 @@ footer .container .items div ul li {
       font-size: 14px;
   }
   .customer .container .contain .item img {
-      width: 70px;
+    width: 80px;
+  }
+  .customer .container , .services .container , .customer .container , .articales .container {
+    width: 100%;
+    padding-top: 0;
   }
 }
